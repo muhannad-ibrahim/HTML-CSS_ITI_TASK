@@ -1,0 +1,64 @@
+h1{
+    color: aqua;
+    font-style: oblique;
+    font-size: 50;
+}
+body{
+    background:url("../images/BG.jpeg");
+    background-size: cover;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80;
+    font-size: 20;
+    color: white;
+    background-color: red;
+    text-align: center;
+    border-radius: 50px 50px;
+}
+
+.m_div{
+    background-color: black;
+    opacity: 0.8;
+    margin: auto;
+    width: 400;
+    height: 420;
+}
+
+.legend{
+    margin: auto;
+}
+
+.imageLegend{
+    border-radius: 50%;
+}
+
+label{
+    color: white;
+}
+
+.mySpan{
+    color: white;
+    font-size: 80;
+    font-weight: 900;
+}
+
+p{
+    color: white;
+    font-size: 30;
+    font-weight: 900;
+    text-align: center;
+}
+
+.field{
+    width: 300;
+    margin: auto;
+}
+
+input[type="text"],input[type="password"] {
+    width: 350;
+    height: 30;
+}
