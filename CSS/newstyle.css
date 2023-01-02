@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #EBE8E4;
   color: #222;
@@ -15,7 +20,7 @@ nav {
   display: block;
   margin: 8px 22px 8px 22px;
   overflow: hidden;
-  height: 55;
+  height: 75;
   width: 95%; 
   font-size: 20;
 }
@@ -27,7 +32,7 @@ nav ul {
 nav ul li {
   display: inline-block;
   list-style-type: none;
-    
+
   -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
