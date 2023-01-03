@@ -7,10 +7,26 @@ body {
   background-color: #EBE8E4;
   color: #222;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-  font-size: 15px;
 }
- 
+
+header {
+  height: 40px;
+  padding-top: 10px;
+  font-size: 18px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+}
+header a {
+  color: oldlace;
+  text-decoration: none;
+}
+
+header a:hover{
+  font-weight: bold;
+  color:coral;
+}
+
 nav {
   background-color: #fff;
   border: 10px solid #dedede;
@@ -20,27 +36,32 @@ nav {
   display: block;
   margin: 8px 22px 8px 22px;
   overflow: hidden;
-  height: 75;
+  height: 90;
   width: 95%; 
   font-size: 20;
 }
+#icon {
+  width: 3vw;
+  height: 8vh;
+  margin-left: 20;
+  color: #5E5E5E;
+  background: white;
+  float: left;
+}
+
+
 nav ul {
   margin: 0;
   padding: 0;
+  float: right;
 }
  
 nav ul li {
   display: inline-block;
   list-style-type: none;
-
-  -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s; 
+  padding-top: 9;
 }
 	  
-    
 nav > ul > li > a {
   color: black;
   display: block;
@@ -48,13 +69,70 @@ nav > ul > li > a {
   padding: 0 24px;
   text-decoration: none;
 }
- 
+.container {
+  border: 1px solid;
+  margin-left: 4.5%;
+  width: 90%;
+  padding: 20px;
+  border-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 5%;
+  background-color: gainsboro;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+.smallDiv {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  width: 30%;
+  display: inline-block;
+  margin: 15px;
+  background-color: white;
+}
+
+.smallDiv a:link {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15;
+  color: darkred;
+}
  /*Hover States*/
 
 nav > ul > li:hover {
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 nav > ul > li:hover > a {
-  color: white;
+  color: darkred;
+  text-decoration: underline;
+}
+
+footer {
+  clear: both;
+  background-color: gray;
+  margin-left: 4.5%;
+  width: 90%;
+  display: inline-block; 
+}
+
+.f-header {
+  border-collapse: collapse;
+  margin: 25px;
+}
+
+.f-header td {
+  padding-left: 240px;
+  padding-right: 100px;
+}
+
+.f-header td a {
+  color: oldlace;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.f-header td a:hover{
+  font-weight: bold;
+  color:coral;
 }
