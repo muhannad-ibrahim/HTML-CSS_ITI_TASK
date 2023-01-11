@@ -1,9 +1,10 @@
 h1{
-    color: aqua;
+    background-color: lightslategrey;
+    color: whitesmoke;
     font-style: oblique;
-    font-size: 50;
+    font-size: 2em;
 }
-body{
+.body{
     background:url("../images/BG.jpeg");
     background-size: cover;
 }
@@ -25,7 +26,7 @@ button{
     opacity: 0.8;
     margin: auto;
     width: 400;
-    height: 420;
+    height: 430;
 }
 
 .legend{
@@ -61,4 +62,20 @@ p{
 input[type="text"],input[type="password"] {
     width: 350;
     height: 30;
+}
+
+
+/*************contact page*****************/
+.my_div{
+    padding-top: 40;
+    padding-left: 15;
+    background-color: black;
+    opacity: 0.8;
+    margin: auto;
+    width: 400;
+    height: 380;
+}
+.my_fileds {
+    width: 20;
+    padding-left: 10;
 }

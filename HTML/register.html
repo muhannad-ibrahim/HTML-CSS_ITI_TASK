@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <style>
+            table{background-color:powderblue;color: blue}
+            fieldset{margin-bottom: 5px;border: 3}
+            #t1{width: 75% ;}
+            #t2{text-align: left}
+            #t3{background-color: red;text-align: left;}
+            #t4{background-color: mediumspringgreen;text-align: left;color: green}
+            input[type="text"],input[type="password"] {width: 400}
+            h1{text-align: center;background-color:lightslategrey;color: whitesmoke}
+        </style>
+    </head>
+    <body style="background-color: darkgray;">
+        <h1><marquee behavior="alternate">Registration Form</marquee></h1>
+       <form action="http://somesite.com/prog/adduser" method="post">
+           <table border="2" width="60%" align="center" >
+               <tr>
+                   <th id="t2">First Name</th> <td id="t1"><input type="text" name="First Name" placeholder="Enter Your First Name"></td>
+               </tr>
+               
+               <tr>
+                   <th id="t2">Last Name</th> <td id="t1"><input type="text" name="Last Name" placeholder="Enter Your Last Name"></td>
+               </tr>
+               <tr>
+                   <th id="t2">Your Picture</th> <td id="t1"><input type="file"></td>
+               </tr>
+               <tr>
+                   <th id="t2">E-mail</th> <td id="t1"><input type="Email" name="E-mail" placeholder="name@gmail.com" required></td>
+               </tr>
+               <tr>
+                   <th id="t2">City</th> <td id="t1"><select><option>cairo</option><option>Alex</option><option>Aswan</option><option>Asmalyea</option><option>Mansora</option></select></td>
+               </tr>
+               <tr>
+                   <th id="t2">Password</th> <td id="t1"><input type="password" name="password" placeholder="Enter Your Password"></td>
+               </tr>
+               <tr>
+                   <td id="t3"><input type="radio" name="sexx" >Male</td> <td id="t3"><input type="radio" name="sex">Female</td>
+               </tr>
+               <tr>
+                   <td id="t4" colspan="2"><input type="radio" name="prog" >Computer Science</td>
+               </tr>
+                <tr>
+                   <td id="t4" colspan="2"><input type="radio" name="prog" >Physics/CS</td>
+               </tr>
+               <tr>
+                   <td id="t4" colspan="2"><input type="radio" name="prog" >Statistics</td>
+               </tr>
+               <tr>
+                   <td id="t2" colspan="2"> <input type="submit" value="Send"> <input type="reset"> </td>
+               </tr>
+               <tr>
+                   <th id="t2" colspan="2"> Enter Your Comments : <br> <textarea rows="5" cols="80" name="description" placeholder="Enter comments here..."></textarea> </th>
+               </tr>
+           </table>
+      </form>
+    </body>
+
+</html>
