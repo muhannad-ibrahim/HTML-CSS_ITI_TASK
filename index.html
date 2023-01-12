@@ -1,14 +1,22 @@
 <!DOCTYBE html>
-<html>
+    <html>
+
     <head>
-       <meta charset="utf-8">
+        <meta charset="utf-8">
         <style>
-            iframe{border:0; }
-            p{margin-bottom:20px }
+            iframe {
+                border: 0;
+            }
+
+            p {
+                margin-bottom: 20px
+            }
         </style>
-        <link rel="stylesheet" href="./CSS/newstyle.css"  />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/newstyle.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     </head>
+
     <body>
         <header>
             <a href="tel://+201014451886" target="_blank">
@@ -30,31 +38,33 @@
         </header>
         <nav>
             <a href="#" class="logo"><img id="icon" src="./Images/Ain_Shams_logo.png"></a>
+            <div class="toggle">
+                <i class="fa-solid fa-bars menu"></i>
+            </div>
             <ul>
                 <li><a href="./HTML/home.html" target="iframe_a"><b>Home</b></a>
                 </li>
-                
+
                 <li><a href="./HTML/contact.html" target="iframe_a"><b>Contact us</b></a>
                 </li>
-                
+
                 <li><a href="#"><b>Users</b></a>
                 </li>
 
                 <li><a href="./HTML/login.html" target="iframe_a"><b>Login</b><span class="caret"></span></a></li>
-                
+
                 <li><a href="./HTML/register.html" target="iframe_a"><b>Register</b></a></li>
             </ul>
         </nav>
-        
-        <iframe height="90%" width="100%" name="iframe_a" src="./HTML/home.html" scrolling="yes">frame</iframe>
+        <iframe height="1000rem" width="100%" name="iframe_a" src="./HTML/home.html" scrolling="no">frame</iframe>
 
         <footer>
             <table class="f-header">
                 <tbody>
                     <tr>
-                        <td><a href="google.com">Links</a></td>
-                        <td><a href="facebook.com">Links</a></td>
-                        <td><a href="linkedin.com">Links</a></td>
+                        <td><a href="https://www.google.com" target="_blank">Links</a></td>
+                        <td><a href="https://www.facebook.com" target="_blank">Links</a></td>
+                        <td><a href="https://www.linkedin.com" target="_blank">Links</a></td>
                     </tr>
                     <tr>
                         <td><a href="#">Links</a></td>
@@ -68,8 +78,19 @@
                     </tr>
                 </tbody>
             </table>
-            <div style="background-color: yellow;color:darkred;text-align: center;">Copyright 2023: Eng/ Muhannad Ibrahim @ITI-43</div>
+            <div class="copyRight">Copyright 2023: Eng/ Muhannad
+                Ibrahim @ITI-43
+            </div>
         </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+        <script type="text/javascript">
+            $(() => {
+                $('.menu').click(() => {
+                    $('ul').toggleClass('active');
+                })
+            });
+        </script>
     </body>
 
-</html>
+    </html>
