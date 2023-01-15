@@ -6,7 +6,7 @@ h1 {
 }
 
 .body {
-    background: url("../images/BG.jpeg");
+    background-color: darkgray;
     background-size: cover;
 }
 
