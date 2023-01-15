@@ -157,7 +157,7 @@ nav > ul > li:hover > a {
 footer {
   clear: both;
   background-color: gray;
-  margin-top: 5%;
+  margin-top: 5rem;
   margin-left: 4.5%;
   position: relative;
   width: 90vw;
@@ -197,11 +197,12 @@ footer {
   margin-left: 10%;
   margin-top: 5%;
   padding: 25px;
-  height: 75vh;
+  height: 65vw;
 }
 .image-det h1{
   text-align: center;
   color: darkred;
+  font-size: 4vw
 }
 .image-det .part {
   display: inline-block;
@@ -223,7 +224,7 @@ footer {
 
 h2 {
   display: block;
-  font-size: 1.2em;
+  font-size: 2.8vw;
   text-align: center;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
@@ -232,10 +233,11 @@ h2 {
   font-weight: bold;
 }
 
-p {
+.text-part>p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  font-size: 2.3vw;
 }
